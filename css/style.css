@@ -1,0 +1,74 @@
+/* 
+
+Project Name: The Christmas Cookie Monster 
+Client: Cookie Monster
+Author: Suhani Gandhi  
+
+*/
+
+html 
+{
+	/* set up a background image */
+	
+	background: url('../images/Cookie-Monster-Christmas2.jpg') no-repeat;
+	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+h1 {
+	font-family: 'Mountains of Christmas', cursive;
+	color:  #165B33;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+/* personal comment:  hexadecimal aka HEX aka 6 digit codes like the 35C0F2 or 53a8b6 below are unique to each possible color - can find them from Digital Color Meter on Mac or Digital Colorimeter on PC or other online tools like colourlovers.com */
+
+h2 {
+	font-family: 'Mountains of Christmas', cursive;
+	background: #EA4630;
+	color: floralwhite;
+	font-size: 18px;
+	padding: 6px;
+	font-weight: 700;
+
+}
+
+h3 {
+	font-family: 'Mountains of Christmas', cursive;
+	color: #34A65F;
+	font-size: 21px;
+	font-weight: 700;
+
+}
+
+a {
+	font-family: 'Mountains of Christmas', cursive;
+	color:  #35C0F2;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Mountains of Christmas', cursive;
+	color:  #235E6F;
+	font-weight: 400;
+}
+
+a {
+	text-decoration:  none;
+}
+
+#container {
+	background: whitesmoke;
+	width: 430px;
+	margin: 5px;
+	padding: 50px;
+}
+
